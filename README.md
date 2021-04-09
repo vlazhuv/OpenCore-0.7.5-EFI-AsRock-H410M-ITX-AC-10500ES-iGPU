@@ -29,21 +29,20 @@ https://dortania.github.io/OpenCore-Install-Guide/
 
 
 BIOS设置选项列表
+| 禁⽤清单 |
+| Items       | Model               |
+| ----------- | ------------------- |
+| Fast Boot   | 快速启动 |
+| VT-d        | (can be enabled if you set DisableIoMapper to YES) - VT-d（如果DisableIOMapper Quicks设置为YES，则可以启⽤） |
+| CSM         | 兼容性⽀持模块 |
+| Thunderbolt   | 雷雳        |
+| Intel SGX         | 英特尔SGX             |
+| Intel Platform Trust  | 英特尔平台信任      |
+| CFG Lock (MSR 0xE2 write protection)    | CFG锁（MSR 0xE2写保护）（必须关闭，如果找不到该选项，则在OpenCore的config-内核-> Quirks下启⽤与CFG Lock相关选项）           |
+| Secure Boot        | 安全启动 |
+| Parallel Port        | 并口 |
+| Serial/COM Port        | 串⾏/COM端⼜ |
 
-禁⽤清单
-Fast Boot - 快速启动
-VT-d (can be enabled if you set DisableIoMapper to YES) - VT-d（如果
-DisableIOMapper Quicks设置为YES，则可以启⽤）
-CSM - CSM 兼容性⽀持模块
-Thunderbolt - 雷雳
-Intel SGX - 英特尔SGX
-Intel Platform Trust - 英特尔平台信任
-CFG Lock (MSR 0xE2 write protection) - CFG锁（MSR 0xE2写保护）（必须关
-闭，如果找不到该选项，则在OpenCore的config-内核-> Quirks下启⽤与CFG Lock
-相关选项）
-ecure Boot - 安全启动
-Parallel Port - 并⼜
-Serial/COM Port - 串⾏/COM端⼜
 
 启⽤清单
 VT-x - VT-x
