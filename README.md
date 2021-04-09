@@ -1,5 +1,7 @@
 # OpenCore-0.6.8-EFI-AsRock-H410M-ITX-AC-10500ES-iGPU
+# macOS Big Sur 11.2.3
 # Hackintosh
+
 ## 配置
 
 | Items       | Model               |
@@ -28,9 +30,9 @@
 https://dortania.github.io/OpenCore-Install-Guide/
 
 
-BIOS设置选项列表
-| 禁⽤清单 |
-| Items       | Model               |
+## BIOS设置选项列表
+# 禁⽤清单
+| 名称        | 说明               |
 | ----------- | ------------------- |
 | Fast Boot   | 快速启动 |
 | VT-d        | (can be enabled if you set DisableIoMapper to YES) - VT-d（如果DisableIOMapper Quicks设置为YES，则可以启⽤） |
@@ -43,17 +45,16 @@ BIOS设置选项列表
 | Parallel Port        | 并口 |
 | Serial/COM Port        | 串⾏/COM端⼜ |
 
-
-启⽤清单
-VT-x - VT-x
-UEFI Boot Mode UEFI启动模式。请不要使⽤Legacy
-硬盘模式：改为 AHCI 。不能⽤IDE和RST RAID。
-Above 4G decoding - ⼤于4G地址空间解码
-Hyper-Threading - 超线程
-Execute Disable Bit - 执⾏禁⽤位
-EHCI/XHCI Hand-off - EHCI / XHCI接⼿控制
-OS type : Windows 8.1/10 UEFI Mode - 操作系统类型：Windows 8.1 / 10 UEFI
-模式
-DVMT Pre-Allocated (iGPU Memory): DVMT预分配（iGPU内存）： 64MB （如
-果能设Max就设）
-Legacy RTC Device - 传统RTC设备
+# 启⽤清单
+| 名称        | 说明               |
+| ----------- | ------------------- |
+| VT-x  |  VT-x  |
+| UEFI Boot Mode  |  UEFI启动模式。请不要使⽤Legacy  |
+| 硬盘模式：改为 AHCI  |  不能⽤IDE和RST RAID  |
+| Above 4G decoding  |  ⼤于4G地址空间解码  |
+| Hyper-Threading  |  超线程  |
+| Execute Disable Bit  |  执⾏禁⽤位  |
+| EHCI/XHCI Hand-off  |  EHCI / XHCI接⼿控制  |
+| OS type : Windows 8.1/10 UEFI Mode  |  操作系统类型：Windows 8.1 / 10 UEFI模式  |
+| DVMT Pre-Allocated (iGPU Memory)  |  DVMT预分配（iGPU内存）： 64MB （如果能设Max就设）  |
+| Legacy RTC Device  |  传统RTC设备  |
