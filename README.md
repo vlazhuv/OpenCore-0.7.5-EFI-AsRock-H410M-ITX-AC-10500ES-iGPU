@@ -7,7 +7,7 @@
 | Motherboard | AsRock H410M-ITX/AC |
 | CPU         | Intel Core i5-10500ES |
 | RAM         | JAZER 2x32GB DDR4 2666 MHz |
-| Hard Disk   | Kioxia 500g nvme        |
+| Hard Disk   | Kioxia 500G nvme        |
 | GPU         | UHD 630             |
 | Sound Card  | Realtek ALC887      |
 | Ethernet    | (Onboard)           |
