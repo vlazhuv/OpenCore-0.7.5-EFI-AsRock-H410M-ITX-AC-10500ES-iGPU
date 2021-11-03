@@ -12,8 +12,8 @@
 | Hard Disk   | Kioxia 500G nvme        |
 | GPU         | UHD 630             |
 | Sound Card  | Realtek ALC887      |
-| Ethernet    | (Onboard)           |
-| WLAN        | Intel Dual Band Wireless-AC 3168 |
+| Ethernet    | Intel Ethernet Connection I219-V |
+| WLAN & Bluetooth        | Intel Dual Band Wireless-AC 3168 |
 
 ## 功能
 - [x] 板载声卡
