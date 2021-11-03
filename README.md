@@ -1,5 +1,5 @@
-# OpenCore-0.7.3-EFI-AsRock-H410M-ITX-AC-10500ES-iGPU
-# macOS Big Sur 11.6
+# OpenCore-0.7.5-EFI-AsRock-H410M-ITX-AC-10500ES-iGPU
+# macOS Monterey 12.1
 # Hackintosh
 
 ## 配置
